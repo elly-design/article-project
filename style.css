@@ -1,0 +1,170 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff7e5f;
+}
+
+img, video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center; /* Center-align text */
+    font-size: 0.8rem; /* Reduce font size */
+    padding: 10px; /* Add smaller padding */
+    margin: 0; /* Remove any default margins */
+    background-color: #f4f4f4; /* Optional background color */
+    color: #333; /* Optional text color */
+    border-top: 1px solid #ccc; /* Optional thin border on top */
+}
+
+/* General Section Styling */
+.concepts {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: white; /* White Background */
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style Heading */
+.concepts h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e3a8a; /* Professional Dark Blue */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Paragraph Styling */
+.concepts p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 15px;
+    color: #444;
+}
+
+/* Video Container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Styling the iframe */
+.video-container iframe {
+    width: 80%;
+    max-width: 600px;
+    height: 340px;
+    border-radius: 10px;
+    border: 3px solid #1e3a8a; /* Matching border color */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Soft Shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add Hover Effect */
+.video-container iframe:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.challenges img {
+    width: 50%; /* Reduces the image width */
+    max-width: 300px; /* Limits the maximum width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin: 10px auto; /* Centers the image with less margin */
+}
+
+.projects img {
+    max-width: 80%; /* Adjust width to 80% of the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper alignment */
+    margin: 20px auto; /* Center the image */
+    border-radius: 10px; /* Add smooth edges for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a soft shadow for a professional feel */
+}
+
+.projects img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
+}
+
+.future {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 20px auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.animation-preview {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
+
